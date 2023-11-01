@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Влюбись в искусство</title>
+    <link rel="stylesheet" href="drow.css" />
+  </head>
+  <body>
+    <div class="workspace">
+      
+      <div class="site_name">
+        <img src="name.png" alt="name" height="80px" />
+      </div>
+
+      <div class="name_pict">
+        <button id="button-save" class="button-save" >Сохранить</button>
+        <span>Ваш рисунок</span>
+        <button id="button-clear" class="button-clear" >Очистить</button>
+      </div>
+
+      <div class="panel">
+        <div class="tools_1"></div>
+        <canvas class="canvs" id="canvas">не отображается</canvas>
+        <div class="tools_1"></div>
+      </div>
+
+      <div class="tools_2">
+        <input type="color" class="colorPicker" id="colorPicker">
+        <input type="range" class="brushSizeSlider" id="brushSizeSlider" min="1" max="100" value="10" >
+        <span class="brushSizeLabel" id="brushSizeLabel"> Размер кисти: 10 </span>
+      </div>
+    </div>
+
+    <script src="drow.js"></script>
+  </body>
+</html>

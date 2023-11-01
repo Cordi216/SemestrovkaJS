@@ -1,0 +1,41 @@
+body{
+    background-image: url(Background_page.jpg);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.site_name{
+    align-items: center;
+    width: 700px;
+    height: 200px;
+    background-image: url(name.png);
+    background-size: cover;
+}
+
+.frame_start{
+    align-items: center;
+    width: 700px;
+    height: 100px;
+    background-color: rgba(255, 228, 196, 0.442);
+    border: 20px solid #f5d78667;
+    border-radius: 30px;
+    box-shadow: 0 0 20px #fae189;
+}
+
+.start{
+    width: 700px;
+    height: 100px;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    font-size: 50px;
+    background-color: rgb(57, 127, 70);
+    
+}
+
+.start:focus{
+    outline: none;
+    border-color: #63b745;
+    box-shadow: 0 0 10px #576d7c;
+}
